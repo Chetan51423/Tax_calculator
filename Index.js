@@ -116,12 +116,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
             if(!annualIncome || !extraIncome || ageGroup=="_" || !deduction)
             {
-                alert("please fill all the fields");
+                alert("Please fill all the fields");
                 return;
             }
             else if(!isNumber())
             {
-                alert("enter the numerical value in gross income")
+                alert("Enter the numerical value in gross income")
                 return;
             }
             else
