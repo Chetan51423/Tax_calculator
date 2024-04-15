@@ -27,26 +27,27 @@
 
 ### images and their description
 
-<img src="./Assets/gross_annual_income_tooltip.jpg" width="385px" align="center">
 > This is the Annual income information tooltip image hovering over the "?" shows the tooltip
+<img src="./Assets/gross_annual_income_tooltip.jpg" width="385px" align="center">
 
-<img src="./Assets/Extra_income_tooltip.jpg" width="385px" align="center">
 > This is the Extra income information tooltip image hovering over the "?" shows the tooltip
+<img src="./Assets/Extra_income_tooltip.jpg" width="385px" align="center">
 
-<img src="./Assets/Age_group_tooltip.jpg" width="385px" align="center">
 > This is the Age group information tooltip image hovering over the "?" shows the tooltip
+<img src="./Assets/Age_group_tooltip.jpg" width="385px" align="center">
 
-<img src="./Assets/deduction_tooltip.jpg" width="385px" align="center">
 > This is the annually deduction in income information tooltip image hovering over the "?" shows the tooltip
+<img src="./Assets/deduction_tooltip.jpg" width="385px" align="center">
 
-<img src="./Assets/Enter numerical data alert.jpg" width="385px" align="center">
 > This is the image of alert shown when the Annual income has non numerical strings as input and hit the submit button
+<img src="./Assets/Enter numerical data alert.jpg" width="385px" align="center">
 
-<img src="./Assets/Fill all fields alert .jpg" width="385px" align="center">
 > This is the image of alert shown when some fields are empty and hit the submit button
+<img src="./Assets/Fill all fields alert .jpg" width="385px" align="center">
 
-<img src="./Assets/output_modal.jpg" width="385px" align="center">
 > This is the image of output modal when enter all the data correctly and hit the submit button
+<img src="./Assets/output_modal.jpg" width="385px" align="center">
+
 
 
 [!NOTE]
