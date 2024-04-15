@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Tax Calculator</title>
 </head>
-<body>
+<body >
+    
+    <div class="container-fluid d-flex justify-content-center align-items-center " style="min-height: 100vh;">
+        <img src="./Assets/img3.png" alt="">
+        <div class="row outer_div">
+          <div class="col outer_div2 ">
+            <h1 class=" mb-5">Tax Calculator</h1>
+            <div class="border border-2 m-2 p-4 ">
+              <div class=" ">
+                    <div class="position-relative ">
+                        <label for="annual_income" class="label_style">Enter gross annual income 
+                            <svg width="23" height="23" class="svg">
+                                <circle cx="12" cy="12" r="7" stroke="grey" stroke-width="1" fill="white" />
+                            </svg>
+                            <span class="tooltip_icon">?</span>
+                            <span id="tooltip_text" class="tooltip_text">Gross annual income is your total salary in a year before any deduction</span>
+                        </label>
+                        <input id="annual_income" type="number" class="d-block border border-2 w-100 font_style" placeholder="Enter gross annual income">
+                    </div>
+                    <div class="d-block ">
+                        <label for="extra_income" class="d-block label_style">Enter extra income
+                            <svg width="23" height="23" class="svg">
+                                <circle cx="12" cy="12" r="7" stroke="grey" stroke-width="1" fill="white" />
+                            </svg>
+                            <span class="tooltip_icon">?</span>
+                            <span id="tooltip_text" class="tooltip_text">Extra income is additional money earned beyond your regular salary</span>
+                        </label>
+                        <input id="extra_income" type="number" class="d-block border border-2 w-100 font_style" placeholder="Enter extra income" opacity-75 >
+                    </div>
+                    <div class="d-block ">
+                        <label for="age_group" class="d-block label_style">Enter age group
+                            <svg width="23" height="23" class="svg">
+                                <circle cx="12" cy="12" r="7" stroke="grey" stroke-width="1" fill="white" />
+                            </svg>
+                            <span class="tooltip_icon">?</span>
+                            <span id="tooltip_text" class="tooltip_text">Select the age group you lies into</span>
+                        </label>
+                        <select class="d-block border border-2 w-100 font_style" name="" id="age_group">
+                            <option value="_"></option>
+                            <option value="under 30">under 30 </option>
+                            <option value="between 30 and 60">between 30 and 60</option>
+                            <option value="above 60">above 60</option>
+                        </select>
+                        <!-- <input id="age_group" type="test" class="d-block border border-2 w-100 font_style" placeholder="Enter age group"> -->
+                    </div>
+                    <div class="d-block ">
+                        <label for="deduction" class="d-block label_style">Enter total applicable deductions
+                            <svg width="23" height="23" class="svg">
+                                <circle cx="12" cy="12" r="7" stroke="grey" stroke-width="1" fill="white" />
+                            </svg>
+                            <span class="tooltip_icon">?</span>
+                            <span id="tooltip_text" class="tooltip_text">Reductions in income that are applicable to your financial situation</span>
+                        </label>
+                        <input id="deduction" type="number" class="d-block border border-2 w-100 font_style" placeholder="Enter total applicable deductions">
+                    </div>
+                    <div class="d-flex justify-content-center ">
+                        <button id="submit_button" class="btn btn-success mt-4 w-100">Submit</button>
+                    </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    </div>
     <script type="module" src="./Index.js"></script>
 </body>
 </html>
