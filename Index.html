@@ -24,7 +24,18 @@
                             <span class="tooltip_icon">?</span>
                             <span id="tooltip_text" class="tooltip_text">Gross annual income is your total salary in a year before any deduction</span>
                         </label>
-                        <input id="annual_income" type="number" class="d-block border border-2 w-100 font_style" placeholder="Enter gross annual income">
+                        <div class="d-flex ">
+                            <input id="annual_income" type="text" class="d-block border border-2 w-100 font_style input" placeholder="Enter gross annual income">
+                            <svg id="warning_icon" width="24" height="23" class="svg2" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="8" stroke ="grey" stroke-width="1.3" fill="white" />
+                                <text x="11" y="15" font-family="Arial" font-size="10" >!</text>
+                            </svg>
+                            <div class="tooltip_warning">
+                                <div id="tooltip_warning" class="tooltip_warning_text">Enter numerical data</div>
+                            </div>
+                            
+                            
+                        </div>
                     </div>
                     <div class="d-block ">
                         <label for="extra_income" class="d-block label_style">Enter extra income
@@ -60,7 +71,7 @@
                             <span class="tooltip_icon">?</span>
                             <span id="tooltip_text" class="tooltip_text">Reductions in income that are applicable to your financial situation</span>
                         </label>
-                        <input id="deduction" type="number" class="d-block border border-2 w-100 font_style" placeholder="Enter total applicable deductions">
+                        <input id="deduction" type="number" class="d-block border border-2 w-100 font_style input" placeholder="Enter total applicable deductions">
                     </div>
                     <div class="d-flex justify-content-center ">
                         <button id="submit_button" class="btn btn-success mt-4 w-100">Submit</button>
